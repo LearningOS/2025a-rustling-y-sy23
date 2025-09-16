@@ -12,6 +12,7 @@ pub fn animal_habitat(animal: &str) -> &'static str {
         3
     } else {
         0
+
     };
 
     // DO NOT CHANGE THIS STATEMENT BELOW

@@ -21,6 +21,7 @@ pub fn foo_if_fizz(fizzish: &str) -> &str {
 mod tests {
     use super::*;
 
+    
     #[test]
     fn foo_for_fizz() {
         assert_eq!(foo_if_fizz("fizz"), "foo")

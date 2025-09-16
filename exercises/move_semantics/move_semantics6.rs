@@ -21,7 +21,8 @@ fn get_char(data: String) -> char {
 
 // Should take ownership
 fn string_uppercase(mut data: String) {
+    
     data.to_uppercase();
-
+    
     println!("{}", data);
 }

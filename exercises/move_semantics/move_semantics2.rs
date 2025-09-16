@@ -17,6 +17,7 @@ fn main() {
 
     vec1.push(88);
 
+    
     println!("{} has length {}, with contents `{:?}`", "vec1", vec1.len(), vec1);
 }
 
